@@ -1,0 +1,23 @@
+{
+  "name": "react-native-debug-style",
+  "main": "./lib/react-native-debug-style",
+  "version": "0.0.1",
+  "description": "A simple atom package to make faster the use of react-native-debug-stylesheet",
+  "author": "angelrs <angelmanuelrs@gmail.com>",
+  "keywords": [
+    "react-native",
+    "style",
+    "layout",
+    "debug"
+  ],
+  "activationCommands": {
+    "atom-workspace": "react-native-debug-style:toggle"
+  },
+  "repository": "https://github.com/angel-rs/atom-react-native-debug-style",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

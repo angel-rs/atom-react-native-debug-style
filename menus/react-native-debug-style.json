@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle react-native-debug-style",
+        "command": "react-native-debug-style:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "react-native-debug-style",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "react-native-debug-style:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
